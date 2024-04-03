@@ -1,0 +1,99 @@
+.mainContainer {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.flexDisplay {
+  display: flex;
+  gap: 100px;
+}
+
+.colorDisplay {
+  display: flex;
+  gap: 20px;
+}
+
+.colorCircle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.inputField {
+  width: 200px;
+  height: 20px;
+  padding: 5px;
+  border: 2px solid black;
+}
+
+.inputField::placeholder {
+  padding: 5px;
+}
+
+.processContainer {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.addButton {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: white;
+  font-weight: 600;
+  border: 2px solid black;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  background-color: #f0f0f0;
+}
+
+.addButton:disabled {
+  border-color: #ccc;
+}
+
+.addButton:disabled:hover {
+  background-color: white;
+}
+
+.creativeItem {
+  margin-top: 20px;
+  width: 560px;
+  height: 150px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.creativeItem h1 {
+  margin: 0;
+  padding-left: 40px;
+}
+
+.creativeItem h3 {
+  margin: 0;
+  padding-left: 40px;
+}
+
+.processBarContainer {
+  width: 560px;
+  height: 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+  overflow: hidden;
+}
+
+.processBarFill {
+  height: 100%;
+  background-color: black;
+  transition: width 0.5s ease-in-out;
+}
